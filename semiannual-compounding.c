@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main(void){
-	unsigned long int amount, goal, money;
+	long int amount, goal, money;
 	int period_m, period_y, period_ym;
 	float yrate,rate6;
-	printf("半年複利定期積立金の目標達成期間を算出します");
+	printf("半年複利定期積立金の目標達成期間を算出します\n");
 	printf("毎月の積立額：");
 	scanf("%ld" , &amount);
 	printf("目標積立額：");
@@ -14,7 +14,7 @@ int main(void){
 	scanf("%f" , &yrate);
 
 	if(amount < 0 || goal < 0 || yrate < 0.0){
-		printf("毎月の積立額、目標積立額、年利率には正の値を入力してください！\nシミュレーションを終了します。");
+		printf("毎月の積立額、目標積立額、年利率には正の値を入力してください！\nシミュレーションを終了します。\n");
 		return -1;
 	}
 
