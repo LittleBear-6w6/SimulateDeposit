@@ -5,7 +5,7 @@ int main(void){
 	long int amount, goal, money;
 	int period_m, period_y, period_ym;
 	float yrate,rate6;
-	printf("半年複利定期積立金の目標達成期間を算出します\n");
+	printf("半年複利定期積立金の目標達成期間を算出します！\n");
 	printf("毎月の積立額：");
 	scanf("%ld" , &amount);
 	printf("目標積立額：");
